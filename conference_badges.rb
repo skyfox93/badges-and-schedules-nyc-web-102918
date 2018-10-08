@@ -5,7 +5,7 @@ end
   
 def batch_badge_creator(people)
   
-  people.each do |person|
+  people.each do |person|index
     personbadge_maker(person)
   end
 end
