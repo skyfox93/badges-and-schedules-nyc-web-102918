@@ -11,7 +11,7 @@ def batch_badge_creator(people)
   array
 end
 
-def assign_rooms(names)
+def assign_rooms(people)
   people.each_with_index do |person,index|
     people[i]= "Hello, #{person}! You'll be assigned to room #{index}!"
   end
