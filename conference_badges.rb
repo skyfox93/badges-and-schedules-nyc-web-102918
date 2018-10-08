@@ -13,9 +13,9 @@ end
 
 def assign_rooms(names)
   people.each_with_index do |person,index|
-    people[i]= "Hello, #{person}! You'll be assigned to room #{count}!"
-    count+=1
+    people[i]= "Hello, #{person}! You'll be assigned to room #{index}!"
   end
+  people
 end
 
 def printer(names)
