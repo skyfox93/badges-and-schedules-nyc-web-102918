@@ -4,16 +4,17 @@ def badge_maker(name)
 end
   
 def batch_badge_creator(people)
-  
-  people.each do |person|index
-    personbadge_maker(person)
+  array=[]
+  people.each_with_index do |person,index|
+    array[index]=badge_maker(person)
   end
+  array
 end
 
 def assign_rooms(names)
   count=1
-  people.each do |person|
-    puts "Hello, #{person}! You'll be assigned to room #{count}!"
+  people.each_with_index do |person,index|
+    people[i]= "Hello, #{person}! You'll be assigned to room #{count}!"
     count+=1
   end
 end
