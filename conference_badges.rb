@@ -12,7 +12,11 @@ end
 def assign_rooms
   count=1
   people.each do |person|
-     "Hello, #{person}! You'll be assigned to room #{count}!"
+     puts "Hello, #{person}! You'll be assigned to room #{count}!"
     count+=1
   end
 end
+
+def printer(names)
+  batch_badge_creator(names)
+  people
